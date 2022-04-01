@@ -8,6 +8,7 @@
 	"license": "UNLICENSED",
 	"scripts": {
 		"start": "sanity start",
+		"test": "sanity check",
 		"build": "sanity build public -y"
 	},
 	"keywords": [
@@ -30,6 +31,6 @@
 		"styled-components": "^5.2.0"
 	},
 	"devDependencies": {
-		"@sanity/cli": "^2.28.0"
+		"@sanity/cli": "^2.29.3"
 	}
 }
